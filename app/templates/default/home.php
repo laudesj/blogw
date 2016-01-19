@@ -1,7 +1,7 @@
 <?php $this->layout('layout', ['title' => 'Accueil !']) ?>
 
 <?php $this->start('main_content') ?>
-	<h2>Let's blog...</h2>
+	<h2>Let's blog...<?= $user['username'] ?></h2>
 	<ul>
 	<?php foreach ($posts as $post) { ?>
 		<li>
@@ -11,5 +11,4 @@
 		</li>
 	<?php } ?>
 	</ul>
-<a href="<?= $this->url('create') ?>">Ecrire un post</a>
 <?php $this->stop('main_content') ?>

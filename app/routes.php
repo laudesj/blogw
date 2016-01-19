@@ -6,5 +6,7 @@
 		['GET', '/post/[i:id]/delete', 'Default#delete', 'delete'],
 		['GET|POST', '/post/[i:id]/edit', 'Default#edit', 'edit'],
 		['GET', '/post/[i:id]', 'Default#post', 'post'],
-		
+		['GET|POST', '/register', 'Default#register', 'register'],
+		['GET|POST', '/login', 'Default#login', 'login'],
+		['GET', '/logout', 'Default#logout', 'logout'],
 	);

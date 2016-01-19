@@ -13,7 +13,10 @@
 		<section>
 			<?= $this->section('main_content') ?>
 		</section>
-
+		<a href="<?= $this->url('create') ?>">Ecrire un post</a> | 
+		<a href="<?= $this->url('register') ?>">Register</a> | 
+		<a href="<?= $this->url('login') ?>">Login</a> | 
+		<a href="<?= $this->url('logout') ?>">Logout</a>
 		<footer>
 		</footer>
 	</div>
